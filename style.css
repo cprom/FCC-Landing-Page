@@ -1,0 +1,146 @@
+body {
+    background-color: dodgerblue;
+    margin: auto;
+}
+  
+ #header {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid white;
+    height: 90px;
+    width: 900px;
+    background-color: white;
+  
+    
+}
+    
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    height: 100%;
+    width: 900px;
+    background-color: white;
+    text-align: center;
+}
+
+#header-img {
+    border: 1px solid white;    
+    max-width: 30%;
+    height: auto;
+    margin-top: 20px;
+    
+     
+}
+
+#nav {  
+   
+    margin: auto;
+
+}
+
+#nav-bar {   
+    display: inline-block;
+
+    position: fixed;
+    border: 1px solid silver;
+    background-color: silver;
+    text-align: center;
+    padding-bottom: 3px;
+          
+    overflow: hidden;
+    width: 900px;
+    top: 0;
+    
+    
+    
+}
+
+.nav-link {
+    text-decoration: none; 
+    color: black; 
+    padding-right: 10px;
+   
+}
+
+ a:hover {
+    color: white;
+    
+}
+
+#pricing {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid white;
+    height: 400px;
+    width: 900px;
+    background-color: white;    
+}
+
+#pricing p {
+    border: 1px black solid;
+    text-align: center;
+}
+
+.box-1, .box-2, .box-3 {
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 10px 8px;
+
+}
+
+footer {
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid silver;
+    height: 100px;
+    width: 900px;
+    background-color: silver;
+    text-align: center;
+}
+
+h5 {
+    
+    padding: 20px;
+    
+}
+
+#submit {
+    background-color: orange;
+    height: 45px;
+    width: 100px;
+}
+
+#email {
+    height: 40px;
+    width: 400px;
+    
+}
+
+#video {
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    #pricing, #email, #submit, #wrapper, #nav-bar, #video, footer {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        height: auto;
+        margin: auto;
+    }
+}
+
